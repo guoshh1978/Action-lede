@@ -33,8 +33,6 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-    - name: Setup Debug Session
-      uses: csexton/debugger-action@master
     - name: Checkout
       uses: actions/checkout@main
 
