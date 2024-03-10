@@ -35,8 +35,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@main
-    - name: Setup Debug Session
-      uses: csexton/debugger-action@master
 
     - name: Initialization environment
       env:
